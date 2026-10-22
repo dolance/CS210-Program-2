@@ -74,8 +74,6 @@ Then run:
 
 `p2.cpp` directly includes `webserver.cpp`, so do **not** compile `webserver.cpp` a second time in the command above.
 
-**Important:** The existing `makefile` still refers to `p3.cpp` and a `p3` executable, while this repository contains `p2.cpp`. Use the direct compilation command above instead of assuming `make` works as-is. This documentation update intentionally leaves the coursework code and Makefile unchanged.
-
 ## Repository guide
 
 | File | Purpose |
