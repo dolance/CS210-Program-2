@@ -100,10 +100,6 @@ The repository includes screenshots of command-line runs. These show simulation 
 ## Limitations and possible improvements
 
 - **Empty queue:** `loadbalancer::getRequest()` has no return value when the queue is empty; a future implementation should handle that case explicitly.
-- **Build configuration:** Update the Makefile to match the actual source filenames.
-- **Server model:** The simulation checks one server per loop iteration and does not run real concurrent servers.
-- **Policy selection:** Make queueing policies configurable without editing source and recompiling.
-- **Verification:** Add deterministic random seeds and automated tests before comparing scheduling policies quantitatively.
 
 ## Project context
 
